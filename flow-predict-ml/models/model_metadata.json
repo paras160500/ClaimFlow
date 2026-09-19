@@ -1,0 +1,68 @@
+{
+  "model_version": "claim-risk-v1",
+  "algorithm": "xgboost",
+  "feature_columns": [
+    "claim_amount",
+    "policy_age_days",
+    "vehicle_age",
+    "previous_claim_count",
+    "days_since_previous_claim",
+    "customer_claim_frequency",
+    "repair_shop_claim_count_prior",
+    "repair_shop_investigation_rate_prior",
+    "claim_amount_vs_vehicle_value",
+    "claim_amount_vs_customer_average"
+  ],
+  "target_column": "investigation_label",
+  "risk_level_thresholds": {
+    "low_upper": 0.4,
+    "high_lower": 0.7
+  },
+  "training_rows": 30000,
+  "positive_rate": 0.15326666666666666,
+  "metrics": {
+    "roc_auc": 0.8031194368366998,
+    "pr_auc": 0.4572318842812428,
+    "classification_report": {
+      "0": {
+        "precision": 0.9331713244228432,
+        "recall": 0.7559055118110236,
+        "f1-score": 0.835236541598695,
+        "support": 5080.0
+      },
+      "1": {
+        "precision": 0.3421750663129973,
+        "recall": 0.7010869565217391,
+        "f1-score": 0.45989304812834225,
+        "support": 920.0
+      },
+      "accuracy": 0.7475,
+      "macro avg": {
+        "precision": 0.6376731953679202,
+        "recall": 0.7284962341663814,
+        "f1-score": 0.6475647948635186,
+        "support": 6000.0
+      },
+      "weighted avg": {
+        "precision": 0.8425518981793334,
+        "recall": 0.7475,
+        "f1-score": 0.7776838725999076,
+        "support": 6000.0
+      }
+    }
+  },
+  "feature_importances": {
+    "customer_claim_frequency": 0.34994935989379883,
+    "previous_claim_count": 0.19692149758338928,
+    "days_since_previous_claim": 0.09171243757009506,
+    "claim_amount_vs_vehicle_value": 0.0843360647559166,
+    "repair_shop_investigation_rate_prior": 0.0809321478009224,
+    "policy_age_days": 0.04630842059850693,
+    "repair_shop_claim_count_prior": 0.04302527755498886,
+    "claim_amount": 0.03644251450896263,
+    "claim_amount_vs_customer_average": 0.03527364134788513,
+    "vehicle_age": 0.03509856387972832
+  },
+  "random_state": 42,
+  "note": "Synthetic training data. investigation_label indicates a historical pattern match for investigation-worthy claims, not a fraud determination. Final decisions are made by human investigators."
+}
