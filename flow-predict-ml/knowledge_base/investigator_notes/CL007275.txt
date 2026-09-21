@@ -1,0 +1,5 @@
+Investigation Note -- Claim CL007275
+
+The customer on claim CL007275 had 12 previous claims on file. The investigator cross-referenced the claim history and found the pattern consistent with the customer's usage profile.
+The repair shop associated with claim CL007275 has an elevated historical investigation rate. The investigator requested the original repair invoice directly from the shop rather than relying on the submitted estimate alone.
+The claim was ultimately approved after review.

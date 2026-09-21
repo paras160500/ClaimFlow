@@ -1,0 +1,23 @@
+Policy Type: Third-Party Vehicle Insurance
+    Version: V1
+
+    Coverage:
+    Covers legal liability for injury to third parties and damage to third-party
+    property caused by the insured vehicle. Does NOT cover damage to the insured
+    vehicle itself.
+
+    Required documents:
+    Required documents include the completed claim form, vehicle registration,
+    a copy of the third-party's damage assessment or repair estimate, and an
+    incident report describing how the third-party loss occurred.
+
+    Exclusions:
+    Damage to the insured vehicle is excluded (see Comprehensive policies for
+    own-damage coverage). Claims arising outside the policy period are excluded.
+    Intentional acts are excluded.
+
+    Claim amount guidance:
+    Claim amounts should be supported by an independent assessment of third-party
+    loss. Claims without a corroborating third-party report should be flagged for
+    additional documentation before processing.
+    

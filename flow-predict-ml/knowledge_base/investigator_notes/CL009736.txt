@@ -1,0 +1,4 @@
+Investigation Note -- Claim CL009736
+
+The repair shop associated with claim CL009736 has an elevated historical investigation rate. The investigator requested the original repair invoice directly from the shop rather than relying on the submitted estimate alone.
+The claim was rejected following the investigation.

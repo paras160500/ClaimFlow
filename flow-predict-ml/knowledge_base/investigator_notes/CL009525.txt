@@ -1,0 +1,5 @@
+Investigation Note -- Claim CL009525
+
+The customer on claim CL009525 had 3 previous claims on file. The investigator cross-referenced the claim history and found the pattern consistent with the customer's usage profile.
+Claim CL009525 was filed only 0 days after the customer's previous claim. The investigator confirmed the two incidents were unrelated based on the incident descriptions and repair shop records.
+The claim was rejected following the investigation.

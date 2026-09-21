@@ -1,0 +1,4 @@
+Investigation Note -- Claim CL020595
+
+The customer on claim CL020595 had 4 previous claims on file. The investigator cross-referenced the claim history and found the pattern consistent with the customer's usage profile.
+Claim CL020595 was filed only 10 days after the customer's previous claim. The investigator confirmed the two incidents were unrelated based on the incident descriptions and repair shop records.

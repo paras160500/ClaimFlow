@@ -1,0 +1,6 @@
+Investigation Note -- Claim CL016837
+
+The policy on claim CL016837 was only 29 days old when the claim was filed. The investigator requested the original policy application and confirmed there was no prior coverage gap before proceeding.
+The customer on claim CL016837 had 6 previous claims on file. The investigator cross-referenced the claim history and found the pattern consistent with the customer's usage profile.
+The repair shop associated with claim CL016837 has an elevated historical investigation rate. The investigator requested the original repair invoice directly from the shop rather than relying on the submitted estimate alone.
+The claim was rejected following the investigation.

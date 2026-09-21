@@ -1,0 +1,5 @@
+Investigation Note -- Claim CL017661
+
+The customer on claim CL017661 had 25 previous claims on file. The investigator cross-referenced the claim history and found the pattern consistent with the customer's usage profile.
+The repair shop associated with claim CL017661 has an elevated historical investigation rate. The investigator requested the original repair invoice directly from the shop rather than relying on the submitted estimate alone.
+Additional documents were requested from the claimant before a decision could be made.

@@ -1,0 +1,3 @@
+Investigation Note -- Claim CL023416
+
+The repair shop associated with claim CL023416 has an elevated historical investigation rate. The investigator requested the original repair invoice directly from the shop rather than relying on the submitted estimate alone.

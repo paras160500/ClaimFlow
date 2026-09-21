@@ -1,0 +1,5 @@
+Investigation Note -- Claim CL023280
+
+The customer on claim CL023280 had 9 previous claims on file. The investigator cross-referenced the claim history and found the pattern consistent with the customer's usage profile.
+The repair shop associated with claim CL023280 has an elevated historical investigation rate. The investigator requested the original repair invoice directly from the shop rather than relying on the submitted estimate alone.
+The claim was ultimately approved after review.

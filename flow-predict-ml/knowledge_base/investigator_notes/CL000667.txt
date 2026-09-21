@@ -1,0 +1,5 @@
+Investigation Note -- Claim CL000667
+
+The customer on claim CL000667 had 5 previous claims on file. The investigator cross-referenced the claim history and found the pattern consistent with the customer's usage profile.
+Claim CL000667 was filed only 1 days after the customer's previous claim. The investigator confirmed the two incidents were unrelated based on the incident descriptions and repair shop records.
+The repair shop associated with claim CL000667 has an elevated historical investigation rate. The investigator requested the original repair invoice directly from the shop rather than relying on the submitted estimate alone.

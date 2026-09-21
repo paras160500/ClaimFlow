@@ -1,0 +1,21 @@
+Policy Type: Comprehensive Vehicle Insurance
+    Version: V2
+
+    Coverage:
+    This version extends V1 coverage to include roadside assistance and a
+    no-claim-bonus protection add-on for policyholders with three or more
+    consecutive claim-free years. Core coverage for accidental damage, fire,
+    natural disaster, vandalism, and theft remains unchanged from V1.
+
+    Required documents:
+    Same document requirements as V1: completed claim form, vehicle registration,
+    repair estimate, and incident evidence. Theft claims require a police report.
+
+    Exclusions:
+    Same exclusions as V1. Additionally, roadside-assistance callouts unrelated
+    to an insured event are not covered under the comprehensive claim process.
+
+    Claim amount guidance:
+    Same guidance as V1. The no-claim-bonus protection add-on does not change
+    claim-amount review standards.
+    

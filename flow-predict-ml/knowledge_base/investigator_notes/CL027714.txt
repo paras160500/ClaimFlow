@@ -1,0 +1,3 @@
+Investigation Note -- Claim CL027714
+
+The customer on claim CL027714 had 18 previous claims on file. The investigator cross-referenced the claim history and found the pattern consistent with the customer's usage profile.

@@ -1,0 +1,28 @@
+Policy Type: Commercial Vehicle Insurance
+    Version: V1
+
+    Coverage:
+    Covers vehicles used for commercial/fleet purposes, including goods
+    transport and passenger transport. Coverage includes accidental damage,
+    fire, natural disaster, theft, and third-party liability arising from
+    commercial use.
+
+    Required documents:
+    Required documents include the completed claim form, vehicle registration,
+    commercial permit/license documentation, a repair estimate, and (for
+    transport-related incidents) a trip log or waybill covering the incident
+    period.
+
+    Exclusions:
+    Use of the vehicle outside the licensed commercial purpose (e.g. unauthorized
+    personal use) is excluded. Overloading beyond the vehicle's rated capacity at
+    the time of the incident is excluded. Damage occurring outside the policy
+    period is not covered.
+
+    Claim amount guidance:
+    Given higher average claim values in commercial fleets, claims should be
+    cross-checked against maintenance records and, where the claim amount is a
+    large fraction of the vehicle's assessed value, against the trip log to
+    confirm the vehicle was in authorized commercial use at the time of the
+    incident.
+    

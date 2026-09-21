@@ -1,0 +1,4 @@
+Investigation Note -- Claim CL027433
+
+The customer on claim CL027433 had 5 previous claims on file. The investigator cross-referenced the claim history and found the pattern consistent with the customer's usage profile.
+The claim was rejected following the investigation.

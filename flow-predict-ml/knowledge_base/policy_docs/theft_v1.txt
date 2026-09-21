@@ -1,0 +1,26 @@
+Policy Type: Theft Insurance
+    Version: V1
+
+    Coverage:
+    Covers total loss of the insured vehicle due to theft, up to the vehicle's
+    assessed value at the time of loss. Partial theft of vehicle parts is
+    covered up to a sub-limit specified on the policy schedule.
+
+    Required documents:
+    A police report filed within 48 hours of discovery is mandatory. Required
+    documents also include the completed claim form, vehicle registration,
+    original key(s), and, where available, GPS/tracking device logs.
+
+    Exclusions:
+    Theft is excluded if the vehicle was left unlocked or with keys accessible
+    in a public place, or if the theft is not reported to police within the
+    required window. Theft by a family member or authorized driver is handled
+    under a separate investigation process rather than a standard theft payout.
+
+    Claim amount guidance:
+    Claims should reflect the vehicle's assessed market value at the time of
+    loss, adjusted for age, condition, and mileage where known. A theft claim
+    filed shortly after policy inception, or shortly after a change of
+    registered owner, should be reviewed against the vehicle's full ownership
+    and policy history before payout.
+    
