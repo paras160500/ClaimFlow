@@ -37,7 +37,7 @@ def ensure_index_exists():
     if PINECONE_INDEX not in existing:
         pc.create_index(
             name = PINECONE_INDEX,
-            dimension=EMBEDDING_DIM,
+            dimension=1536,
             metric = "cosine",
             spec=ServerlessSpec(cloud=PINECONE_CLOUD , region=PINECONE_REGION)
         )
