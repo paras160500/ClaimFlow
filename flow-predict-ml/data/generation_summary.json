@@ -1,0 +1,13 @@
+{
+  "seed": 42,
+  "counts": {
+    "customers": 10000,
+    "vehicles": 15000,
+    "repair_shops": 500,
+    "policies": 12000,
+    "claims": 30000,
+    "investigations": 4598
+  },
+  "investigation_label_positive_rate": 0.1533,
+  "high_risk_repair_shop_fraction_actual": 0.062
+}

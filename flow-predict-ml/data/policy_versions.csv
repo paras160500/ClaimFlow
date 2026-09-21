@@ -1,0 +1,6 @@
+policy_version_id,policy_type,version,effective_from,effective_to,description
+PV-COMP-V1,COMPREHENSIVE,V1,2018-01-01,,"Comprehensive insurance policy wording, V1."
+PV-COMP-V2,COMPREHENSIVE,V2,2018-01-01,,"Comprehensive insurance policy wording, V2."
+PV-TP-V1,THIRD_PARTY,V1,2018-01-01,,"Third_Party insurance policy wording, V1."
+PV-THEFT-V1,THEFT,V1,2018-01-01,,"Theft insurance policy wording, V1."
+PV-COMM-V1,COMMERCIAL,V1,2018-01-01,,"Commercial insurance policy wording, V1."
