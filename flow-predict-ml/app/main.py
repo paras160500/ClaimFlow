@@ -21,6 +21,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 
 from app.api.routes_prediction import router as prediction_router
+from app.api.routes_investigation import router as investigation_router
 from app.ml import predict as predict_module
 
 logging.basicConfig(
@@ -60,7 +61,7 @@ app = FastAPI(
         "probabilities -- not fraud determinations. Human investigators make "
         "the final decision."
     ),
-    version="0.1.0-stage1",
+    version="0.2.0-stage2",
     lifespan=lifespan,
 )
 
@@ -108,3 +109,4 @@ def health():
 
 
 app.include_router(prediction_router, prefix="/api")
+app.include_router(investigation_router , prefix="/api")
