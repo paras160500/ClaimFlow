@@ -79,7 +79,7 @@ def check_coverage_limit(claim : Dict[str , Any]) -> Dict[str , Any]:
     }
 
 
-def check_required_documents(claim : Dict[str : Any], submitted_document_types : List[str] = None) -> Dict[str , Any]:
+def check_required_documents(claim : Dict[str, Any], submitted_document_types : List[str] = None) -> Dict[str , Any]:
     required = {"CLAIM_FORM", "REGISTRATION", "REPAIR_ESTIMATE"}
     if claim.get("claim_type") == "ACCIDENT":
         required.add("ACCIDENT_EVIDENCE")

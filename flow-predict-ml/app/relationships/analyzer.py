@@ -18,7 +18,7 @@ from app.db import get_connection
 #                                           logic Statements
 # ════════════════════════════════════════════════════════════════════════════════════════════════
 
-def _rows_to_dicts(rows) -> List[Dict[str : Any]]:
+def _rows_to_dicts(rows) -> List[Dict[str, Any]]:
     return [dict(r) for r in rows]
 
 
