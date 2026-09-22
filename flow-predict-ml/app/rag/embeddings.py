@@ -27,4 +27,4 @@ def get_embeddings(texts : List[str]) -> List[List[float]]:
 
 
 def get_embedding(text : str) -> List[float]:
-    return get_embedding([text])[0]
+    return get_embeddings([text])[0]
