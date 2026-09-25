@@ -5,7 +5,7 @@
  * shape change we have to update here.
  */
 
-const { axios } = require("axios")
+const  axios  = require("axios")
 const { env } = require("../config/env")
 const { logger } = require("../utils/logger")
 

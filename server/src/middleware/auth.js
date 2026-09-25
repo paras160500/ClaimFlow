@@ -14,28 +14,53 @@
 const { supabaseAdmin, supabaseAuthClient } = require("../database/supabase");
 const { AppError } = require("../utils/AppError");
 
-async function requireAuth(req , res , next) {
-    try{
-        const header = req.headers.authorization
-        if(!header || !header.startsWith("Bearer ")) {
-            throw new AppError("Invalid or expired session please log in again." , 401)
-        }
-        const token = header.slice("Bearer ".length)
-        const { userData , error } = await supabaseAuthClient.auth.getUser(token)
-        if(error || !userData){
-            throw new AppError("Invalid or expired session, Please log in again")
-        }
-        const { empdata , err } = await supabaseAdmin.from("employees").select("*").eq("auth_user_id" , userData.user.id).single()
+async function requireAuth(req, res, next) {
+    try {
+        const header = req.headers.authorization;
 
-        if(err || !empdata) {
-            throw new AppError("No employee profile is linked to this account. contact administrator" , 403)
+        if (!header || !header.startsWith("Bearer ")) {
+            throw new AppError(
+                "Invalid or expired session, please log in again.",
+                401
+            );
         }
-        req.employee = employee
-        next()
 
-    }catch(err) {
-        next(err)
+        const token = header.slice("Bearer ".length);
+
+        // Validate Supabase access token
+        const { data: userData, error } =
+            await supabaseAuthClient.auth.getUser(token);
+
+        if (error || !userData?.user) {
+            throw new AppError(
+                "Invalid or expired session, please log in again.",
+                401
+            );
+        }
+
+        // Find the corresponding employee
+        const { data: employee, error: employeeError } =
+            await supabaseAdmin
+                .from("employees")
+                .select("*")
+                .eq("auth_user_id", userData.user.id)
+                .single();
+
+        if (employeeError || !employee) {
+            throw new AppError(
+                "No employee profile is linked to this account. Contact administrator.",
+                403
+            );
+        }
+
+        // Make employee available to controllers
+        req.employee = employee;
+
+        next();
+
+    } catch (err) {
+        next(err);
     }
 }
 
-module.exports = { requireAuth }
+module.exports = { requireAuth };

@@ -19,14 +19,25 @@ const login = asyncHandler(async(req , res) => {
         throw new AppError("Invalid email or password" , 401)
     }
 
-    const { employeeData , empError } = await supabaseAdmin
+    const { data: employeeData, error: empError } = await supabaseAdmin
         .from("employees")
         .select("id, name, email, role, department")
         .eq("auth_user_id", data.user.id)
         .maybeSingle();
 
-    if(!employeeData || empError) {
-        throw new AppError("No employee profile is linked to this account. Contact administrator." , 403)
+    if (empError) {
+        console.error("Employee lookup error:", empError);
+        throw new AppError(
+            "Failed to load employee profile",
+            500
+        );
+    }
+
+    if (!employeeData) {
+        throw new AppError(
+            "No employee profile is linked to this account. Contact administrator.",
+            403
+        );
     }
     
     await writeAuditLog({ employeeId : employeeData.id , action : "LOGIN"})

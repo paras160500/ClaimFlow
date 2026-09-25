@@ -3,7 +3,7 @@ const { requireAuth } = require("../middleware/auth");
 const { requireRole } = require("../middleware/rbac");
 const { validate } = require("../middleware/validate");
 const { claimQuerySchema, createClaimSchema } = require("../validation/schemas");
-const claimsController = require("../controllers/claims.controller");
+const claimsController = require("../controllers/claim.controller");
 
 const router = Router();
 
@@ -25,6 +25,6 @@ router.post(
   claimsController.createClaim
 );
 
-router.post("/:claimId/analyze", requireRole("ADMIN", "INVESTIGATOR"), claimsController.analyzeClaim);
+router.post("/:claimId/analyze", requireRole("ADMIN", "INVESTIGATOR"), claimsController.alayzeClaim);
 
 module.exports = router;
